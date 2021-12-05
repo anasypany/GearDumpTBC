@@ -1,2 +1,8 @@
-# gear-dump-tbc
-wow addon used to dump current char info to an export string
+# GearDumpTBC
+classic tbc addon that dumps character equipment and inventory
+
+## Usage
+
+`/geardumptbc`
+
+

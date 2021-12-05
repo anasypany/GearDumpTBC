@@ -1,0 +1,8 @@
+## Interface: 20502
+## Title: Gear Dump TBC
+## Author: Jarp
+## Notes: Gear Exporter for TBC Classic
+## Version: 0.1
+
+
+GearDump.lua
