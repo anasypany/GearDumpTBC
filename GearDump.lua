@@ -55,14 +55,16 @@ function ScanChar()
       local gem4Id = itemStringSplit[7]
       local suffixId = itemStringSplit[8]
 
-      AddLine("#itemId: " .. itemId)
-      AddLine("##itemName: " .. itemName)
-      AddLine("##enchantId: " .. enchantId)
-      AddLine("##gem1Id: " .. gem1Id)
-      AddLine("##gem2Id: " .. gem2Id)
-      AddLine("##gem3Id: " .. gem3Id)
-      AddLine("##gem4Id: " .. gem4Id)
-      AddLine("##suffixId: " .. suffixId)
+
+      AddLine("##itemName:".. itemName .. ",itemId:" .. itemId .. ",enchantId:" .. enchantId .. ",gem1Id:" .. gem1Id .. ",gem2Id:" .. gem2Id .. ",gem3Id:" .. gem3Id .. ",gem4Id:" .. gem4Id .. ",suffixId:" .. suffixId .. ",itemCount:1")
+      -- AddLine("#itemId: " .. itemId)
+      -- AddLine("##itemName: " .. itemName)
+      -- AddLine("##enchantId: " .. enchantId)
+      -- AddLine("##gem1Id: " .. gem1Id)
+      -- AddLine("##gem2Id: " .. gem2Id)
+      -- AddLine("##gem3Id: " .. gem3Id)
+      -- AddLine("##gem4Id: " .. gem4Id)
+      -- AddLine("##suffixId: " .. suffixId)
 
     end
 
@@ -94,15 +96,16 @@ function ScanChar()
         local _, itemCount = GetContainerItemInfo(bag, bagSlots)
 
         -- add inventory item info to frame text
-        AddLine("#itemId: " .. itemId)
-        AddLine("##itemName: " .. itemName)
-        AddLine("##enchantId: " .. enchantId)
-        AddLine("##gem1Id: " .. gem1Id)
-        AddLine("##gem2Id: " .. gem2Id)
-        AddLine("##gem3Id: " .. gem3Id)
-        AddLine("##gem4Id: " .. gem4Id)
-        AddLine("##suffixId: " .. suffixId)
-        AddLine("##itemCount: " .. itemCount)
+        AddLine("##itemName:".. itemName .. ",itemId:" .. itemId .. ",enchantId:" .. enchantId .. ",gem1Id:" .. gem1Id .. ",gem2Id:" .. gem2Id .. ",gem3Id:" .. gem3Id .. ",gem4Id:" .. gem4Id .. ",suffixId:" .. suffixId .. ",itemCount:" .. itemCount)
+        -- AddLine("#itemId: " .. itemId)
+        -- AddLine("##itemName: " .. itemName)
+        -- AddLine("##enchantId: " .. enchantId)
+        -- AddLine("##gem1Id: " .. gem1Id)
+        -- AddLine("##gem2Id: " .. gem2Id)
+        -- AddLine("##gem3Id: " .. gem3Id)
+        -- AddLine("##gem4Id: " .. gem4Id)
+        -- AddLine("##suffixId: " .. suffixId)
+        -- AddLine("##itemCount: " .. itemCount)
 
       end
 
